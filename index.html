@@ -5,7 +5,8 @@
  <title>The HTML5 Herald</title>
  <meta name="description" content="The HTML5 Herald">
  <meta name="author" content="SitePoint">
- <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="resources/css/reset.css">
+ <link rel="stylesheet" href="resources/css/styles.css">
  <!--[if lt IE 9]>
  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
 ➥</script>
@@ -14,25 +15,37 @@
 <body>
   <header class="page__header">
     <nav class="nav__group">
-        <a href="#" class="nav__logo">...</a>
-        <a href="#" class="nav__link">...</a>
-          add links for the navigation + logo
+        <a href="index.html" class="nav__logo">
+          <img src="resources/img/logo.png" alt="logo" class="logo-img">
+        </a>
+        <a href="https://twitter.com/Erin_Newby?lang=en" class="nav__link">Twitter</a>
+        <a href="#" class="nav__link">Instagram</a>
+        <a href="#" class="nav__link">LinkedIn</a>
+        <a href="#" class="nav__link">Medium</a>
     </nav>
   </header>
   <main class="page__main">
-    <section class="section__content content__portfolio portfolio__projectname">
-    hero
-
+    <section class="section__content hero__container">
+      <div class="hero_textgroup">
+        <p>Hi there. I’m Erin, a product designer based in brooklyn.
+        I’ve had the pleasure of working with various companies including B&H & FitBit.
+        </p>
+        <p>I’m currently a mobile product designer at Nasdaq and I’m also an advocate for acessibility .
+        </p>
+      <div>
     </section>
     <section class="section__content content__portfolio portfolio__projectname">
+      <img src="http://via.placeholder.com/250x150">
     plus
 
     </section>
     <section class="section__content content__portfolio portfolio__projectname">
+      <img src="http://via.placeholder.com/250x150">
     mosiac
 
     </section>
     <section class="section__content content__portfolio portfolio__projectname">
+      <img src="http://via.placeholder.com/250x150">
     random project
 
     </section>
@@ -44,7 +57,7 @@
   <footer class="page_footer">
     <div class="footer__group">
       links
-    </div>  
+    </div>
   </footer>
 
 
