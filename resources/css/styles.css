@@ -1,16 +1,59 @@
 /*libraries*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 /*layouts*/
 /*base*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
+p {
+  padding-top:0.7em;
+  line-height: 1.22em;
+
+}
 
 
 
 /*modules*/
+.section__content{
+  max-width: 80em;
+  margin: 0 auto;
 
+
+}
 /*nav*/
+.page__header{
+  display: flex;
+  max-width: 80em;
+  margin: 0 auto;
 
-.nav__logo img{
+
+
+
+}
+.nav__group{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.nav__group a {
+  padding-top:3em;
+  padding-left: 4em;
+
+}
+
+.nav__logo img {
 width: 8em;
+
+
+}
+
+.hero_text-group p {
+  font-weight: 400;
+  font-size: 3em;
 
 
 }
