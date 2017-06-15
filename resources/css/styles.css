@@ -17,7 +17,7 @@ p {
 
 /*modules*/
 .section__content{
-  max-width: 80em;
+  max-width: 75em;
   margin: 0 auto;
 
 
@@ -25,7 +25,7 @@ p {
 /*nav*/
 .page__header{
   display: flex;
-  max-width: 80em;
+  max-width: 75em;
   margin: 0 auto;
 
 
