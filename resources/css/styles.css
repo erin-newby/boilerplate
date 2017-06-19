@@ -4,7 +4,7 @@
 /*layouts*/
 /*base*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 p {
@@ -16,22 +16,61 @@ p {
 
 
 /*modules*/
-.section__content{
-  max-width: 80em;
-  margin: 0 auto;
 
+
+.hero__container{
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+.hero_text-group{
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+.section__content{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.content__portfolio{
+  max-width: 75em;
+  margin:10em auto;
+  display: flex;
+}
+
+.portfolio__projectdetails{
+  margin-top: 4em;
+  padding-left: 50px;
+  width: 30%;
 
 }
+
+.portfolio__projectdetails p{
+  margin-top: -5px;
+
+}
+
+
+.content__portfolio img{
+  width: 70%;
+  height: 100%
+}
+
+.footer__cta{
+  max-width:75em;
+
+}
+
 /*nav*/
+
 .page__header{
   display: flex;
-  max-width: 80em;
+  max-width: 75em;
   margin: 0 auto;
 
-
-
-
 }
+
 .nav__group{
   flex: 1;
   display: flex;
@@ -41,19 +80,15 @@ p {
 
 .nav__group a {
   padding-top:3em;
-  padding-left: 4em;
-
+  padding-left: 2.5em;
 }
 
 .nav__logo img {
 width: 8em;
-
 
 }
 
 .hero_text-group p {
   font-weight: 400;
   font-size: 3em;
-
-
 }
